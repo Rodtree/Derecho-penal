@@ -1,9 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #2a2d39;
-        
-    }
+background-image: url(../img/senado.jpg);        
+background-size: cover;    
+}
     
     nav{
     height: 100px;
@@ -15,17 +15,21 @@ body{
     color: #000000;
     
     }
-    .logo{
-    display: flex;
-    align-items: center;
-    }
+ 
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 15px;
+  }
     
     .logo h4 {
     
     display: inline-block;
     font-size: 30px;
-    filter:drop-shadow(0 0 10px #707070);
-  }
+ color: #fff;
+
+    }
     
     .logo_img{
     width: 50px;
@@ -49,36 +53,36 @@ color: #333;
 font-weight: 400;
 margin-right: 15px;
 }
-
 .login_btn{
 
 
-    display: inline-block;
-    text-decoration: none;
-    padding: 14px 40px;
-    color: #fff;
-    background-image: linear-gradient(45deg, rgb(74, 85, 179), #26148a);
-    font-size: 14px;
-    border-radius: 30px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 35px;
-    border-bottom-left-radius: 5px;
-    
-
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 40px;
+  color: #fff;
+  background-image: linear-gradient(#1e2b3a, #313e4d);
+  font-size: 14px;
+  border-radius: 30px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 5px;
+  font-weight: bold;
+  font-family: "Helvetica", Arial, sans-serif;
 }
 
 .btn{
-
+  font-weight: bold;
 display: inline-block;
 text-decoration: none;
 padding: 14px 40px;
 color: #fff;
-background-image: linear-gradient(45deg, rgb(105, 47, 153), #691147);
+background-image: linear-gradient(  #4B2E4B, #6A3C6A);
 font-size: 14px;
 border-radius: 30px;
 border-top-right-radius: 15px;
 border-top-left-radius: 35px;
 border-bottom-left-radius: 5px;
+font-family: "Helvetica", Arial, sans-serif;
 }
 
 .login{
@@ -107,6 +111,7 @@ align-items: center;
   
   .input-container {
     position: relative;
+    margin: 0 -10px;
   }
   
   .input-container input, .form button {

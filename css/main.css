@@ -18,13 +18,15 @@ color: #000000;
 .logo{
 display: flex;
 align-items: center;
+gap: 15px;
+margin-left: 15px;
 }
 
 .logo h4 {
 
 display: inline-block;
 font-size: 30px;
-filter:drop-shadow(0 0 10px #707070);
+color: #fff;
 }
 
 .logo_img{
@@ -94,8 +96,7 @@ border-radius: 30px;
   .buscador:focus-within:before {
     transform: scale(1);
   }
-  /* styling of close button */
-  /* == you can click the close button to remove text == */
+
   .reset {
     border: none;
     background: none;
@@ -137,34 +138,42 @@ margin-right: 15px;
     text-decoration: none;
     padding: 14px 40px;
     color: #fff;
-    background-image: linear-gradient(45deg, rgb(74, 85, 179), #26148a);
+    background-image: linear-gradient(#1e2b3a, #313e4d);
     font-size: 14px;
     border-radius: 30px;
     border-top-right-radius: 15px;
     border-top-left-radius: 35px;
     border-bottom-left-radius: 5px;
-    
+    font-weight: bold;
+    font-family: "Helvetica", Arial, sans-serif;
+
 
 }
 
 .btn{
-
+    font-weight: bold;
 display: inline-block;
 text-decoration: none;
 padding: 14px 40px;
 color: #fff;
-background-image: linear-gradient(45deg, rgb(105, 47, 153), #691147);
+background-image: linear-gradient(  #4B2E4B, #6A3C6A);
 font-size: 14px;
 border-radius: 30px;
 border-top-right-radius: 15px;
 border-top-left-radius: 35px;
 border-bottom-left-radius: 5px;
+font-family: "Helvetica", Arial, sans-serif;
 }
 
 .contrato{
+    
 display: flex;
+padding: 10px;
 background-color: #c4c4c4;
 justify-content: center;
+gap: 25px; 
+border-radius: 60px;
+margin: 0 20px;
 
 
 }
@@ -175,10 +184,27 @@ display: flex;
 flex-direction: column;
 }
 
+.text h3{
+
+    display: flex;
+align-items: center;
+justify-content: center;
+font-size: 26px;
+}
+
+.text h4{
+
+font-size: 18px;
+    font-family: "Helvetica", Arial, sans-serif;
+max-width: 700px;
+text-align: center;
+}
+
 .contrato img{
+margin: 20px 0;
 display: flex;
 width: 350px;
-height: 350px;
+height: 300px;
 border-radius: 4px;
 justify-content: end;
 }
@@ -189,6 +215,12 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+}
+.part_inf h2{
+
+color: #fff;
+font-size: 30px;
+
 }
 .cards {
     display: flex;
