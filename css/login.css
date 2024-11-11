@@ -1,207 +1,154 @@
-body {
-    height: 100vh;
+body{
     margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #b1b8c3;
-}
-
-
-
-.REALLYcontainer{
+    padding: 0;
+    background-color: #2a2d39;
+        
+    }
     
-        width: 100%;
-         
-        display: grid;
-        place-items: center;
-}
-.container {
-    margin-left: 35%;
-    margin-top: 4.5%;
-        width: 30%;
-        height: 400px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        border-radius: 10%;
-    }
-
-.left-panel {
-    flex: 1;
-    background-color: #2f3542;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35%; 
-}
-
-.image-container {
-    width: 100px;
+    nav{
     height: 100px;
-    background-color: #a4b0be;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-.image-placeholder {
-    font-size: 14px;
-
-}
-
-.right-panel {
-    flex: 1;
-    background-color: #dfe4ea;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.input-group {
-    margin-bottom: 15px;
-}
-
-.input-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 14px;
-}
-
-.input-group input {
-    width: 100%;
-    padding: 10px;
-    border-radius: 20px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-
-.login-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #57606f;
-    border: none;
-    border-radius: 20px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.login-button:hover {
-    background-color: #2f3542;
-}
-/* Estilos base */
-
-nav.so {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #333;
-    padding: 10px 0;
-    position: relative;
-    width: 100%;
-}
-
-/* Contenedor de los botones */
-.button-container {
-    display: flex;
-    gap: 20px;
-}
-
-/* Botones de la navbar */
-.button {
-    background-color: #0052cc;
-    border-radius: 50%;
-    padding: 10px;
-    transition: transform 0.3s ease, width 0.3s ease;
-    width: 40px;
-    height: 40px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    color: #fff;
-    cursor: pointer;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #000000;
+    
+    }
+    .logo{
+    display: flex;
+    align-items: center;
+    }
+    
+    .logo h4 {
+    
+    display: inline-block;
+    font-size: 30px;
+    filter:drop-shadow(0 0 10px #707070);
+  }
+    
+    .logo_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    }
+    
+
+nav li  {
+
+    display: inline-block;
+    list-style: none;
+    margin: 10px,15px;
+
+}
+
+nav li a{
+
+text-decoration: none;
+color: #333;
+font-weight: 400;
+margin-right: 15px;
+}
+
+.login_btn{
+
+
+    display: inline-block;
     text-decoration: none;
-}
-
-/* Iconos dentro de los botones */
-.button i {
-    font-size: 18px;
+    padding: 14px 40px;
     color: #fff;
+    background-image: linear-gradient(45deg, rgb(74, 85, 179), #26148a);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 5px;
+    
+
 }
 
-/* Efecto de expansión hacia ambos lados al pasar el mouse */
-.button:hover {
-    transform: scale(1.1); /* Expande ligeramente */
-    width: 60px; /* Ancho mayor para expansión */
+.btn{
+
+display: inline-block;
+text-decoration: none;
+padding: 14px 40px;
+color: #fff;
+background-image: linear-gradient(45deg, rgb(105, 47, 153), #691147);
+font-size: 14px;
+border-radius: 30px;
+border-top-right-radius: 15px;
+border-top-left-radius: 35px;
+border-bottom-left-radius: 5px;
 }
 
-/* Estilo adicional para el botón activo (opcional) */
-.button.active {
-    background-color: #003d99;
-}
+.login{
 
-/* Texto debajo de los iconos (oculto o visible según se desee) */
-.button span {
-    display: none;
-}
+display: flex;
+justify-content: center;
+align-items: center;
 
-/* Estilo de los botones */
-.button-container {
-    display: flex;
-    background-color: rgba(0, 73, 144);
-    width: 250px;
-    height: 40px;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(0, 73, 144, 0.5) 5px 10px 15px;
-    transition: all 0.5s;
 }
-
-.button-container:hover {
+.form {
+    background-color: #fff;
+    display: block;
+    padding: 1rem;
+    max-width: 350px;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .form-title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  .input-container input, .form button {
+    outline: none;
+    border: 1px solid #e5e7eb;
+    margin: 8px 0;
+  }
+  
+  .input-container input {
+    background-color: #fff;
+    padding: 1rem;
+    padding-right: 3rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
     width: 300px;
-    transition: all 0.5s;
-}
-
-.button {
-    outline: 0 !important;
-    border: 0 !important;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    transition: all ease-in-out 0.3s;
-    cursor: pointer;
-}
-
-.button:hover {
-    transform: translateY(-3px);
-}
-
-.icon {
-    font-size: 20px;
-}
-
-/* Ocultar el menú en pantallas pequeñas y mostrar el ícono de menú */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        display: none;
-        width: 100%;
-    }
-
-    nav ul.active {
-        display: flex;
-    }
-
-    nav ul li {
-        text-align: center;
-    }
-
-    .menu-toggle {
-        display: block;
-    }
-}
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .submit {
+    display: block;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background-color: #4F46E5;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .signup-link {
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+  }
+  
+  .signup-link a {
+    text-decoration: underline;
+  }
